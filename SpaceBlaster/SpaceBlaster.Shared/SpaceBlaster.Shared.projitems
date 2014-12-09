@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <MSBuildAllProjects>$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
+    <HasSharedItems>true</HasSharedItems>
+    <SharedGUID>90582A9C-2185-4C5B-AC0D-B665F565B594</SharedGUID>
+  </PropertyGroup>
+  <ItemGroup>
+	<Content Include="$(MSBuildThisFileDirectory)c2runtime.js" />
+	<Content Include="$(MSBuildThisFileDirectory)jquery-2.0.0.min.js" />
+	<Content Include="$(MSBuildThisFileDirectory)images\healthbar.png" />
+	<Content Include="$(MSBuildThisFileDirectory)images\healthbg.png" />
+	<Content Include="$(MSBuildThisFileDirectory)images\rocketsdisplay.png" />
+
+  </ItemGroup>
+</Project>
